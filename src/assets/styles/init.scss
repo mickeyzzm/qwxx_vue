@@ -1,0 +1,61 @@
+// html,
+// body,
+body {
+  width: 5462px;
+  height: 960px;
+  // transform: scale(2); // 缩放2倍
+  transform-origin: left top;
+  box-sizing: border-box;
+  margin: 0 !important;
+}
+#app {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  // width: 12000px;
+  // height: 2430px;
+  background-color: #021621;
+}
+div {
+  box-sizing: border-box;
+} 
+.el-table tr, .el-table th{
+  font-size: 18px;
+  color: #DEF0FF;
+}
+.el-table__body tr:hover > td {
+  background-color: inherit; 
+}
+.el-table th.el-table__cell.is-leaf {
+  border: none;
+  border-bottom: 1px solid #043561;
+}
+.el-table::before {
+  content: ''!important;
+  position: absolute!important;
+  background-color: #043561!important;
+  z-index: 1!important;
+} 
+.el-pagination button:disabled {
+  background: #043561;
+}
+.el-pagination .btn-prev, .el-pagination .btn-next, .el-pager li{
+  color: #FFFFFF!important;
+  background: #043561!important;
+}
+.el-pager li {
+  font-size: 18px!important;
+}
+.el-pager .active {
+  color: #409EFF!important;
+}
+.el-pagination .el-input__inner {
+  background: rgba(0,170,255,0.2)!important;
+  font-size: 18px!important;
+  color: #409EFF!important;
+  border: none!important;
+}
+.el-pagination__total {
+  color: #FFFFFF!important;
+  font-size: 18px!important;
+}
